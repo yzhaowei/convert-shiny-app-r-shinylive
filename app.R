@@ -3,11 +3,9 @@
 
 # Load required libraries
 library(shiny)
-library(shinythemes)
 
 # Define UI
 ui <- fluidPage(
-  theme = shinytheme("flatly"),
   
   # App title
   titlePanel("CSV File Uploader"),
